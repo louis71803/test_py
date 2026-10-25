@@ -1,0 +1,37 @@
+model_list:
+  - model_name: gemini-4-argon
+    litellm_params:
+      model: vertex_ai/gemini-4-argon
+      vertex_project: "project-2bf042f1-a122-4083-a62"
+      vertex_location: "global"
+      
+  - model_name: gemini-3.1-pro-preview
+    litellm_params:
+      model: vertex_ai/gemini-3.1-pro-preview
+      vertex_project: "project-2bf042f1-a122-4083-a62"
+      vertex_location: "global"
+      
+  - model_name: gemini-3.8-flash
+    litellm_params:
+      model: vertex_ai/gemini-3.8-flash
+      vertex_project: "project-2bf042f1-a122-4083-a62"
+      vertex_location: "us"
+      
+  - model_name: gemini-2.5-pro
+    litellm_params:
+      model: vertex_ai/gemini-2.5-pro
+      vertex_project: "project-2bf042f1-a122-4083-a62"
+      vertex_location: "us-central1"
+
+  - model_name: gemini-3-pro-image
+    litellm_params:
+      model: vertex_ai/gemini-3-pro-image
+      vertex_project: "project-2bf042f1-a122-4083-a62"
+      vertex_location: "global"
+
+  - model_name: gemini-3.1-flash-image
+    litellm_params:
+      model: vertex_ai/gemini-3.1-flash-image
+      vertex_project: "project-2bf042f1-a122-4083-a62"
+      vertex_location: "global"
+
